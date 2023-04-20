@@ -32,6 +32,8 @@ export const LocationButton = styled(BaseButton)`
 
   background-color: ${(props) => props.theme['purple-light']};
   color: ${(props) => props.theme.purple};
+
+  font-size: 0.875rem;
 `
 
 export const CheckoutButton = styled(BaseButton)`
