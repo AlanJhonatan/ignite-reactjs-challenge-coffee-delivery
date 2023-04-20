@@ -1,3 +1,12 @@
+import { Banner } from './components/Banner'
+import { ProductsView } from './components/ProductsView'
+import { HomeContainer } from './styles'
+
 export function Home() {
-  return <h1>Home Screen</h1>
+  return (
+    <HomeContainer>
+      <Banner />
+      <ProductsView />
+    </HomeContainer>
+  )
 }
