@@ -25,6 +25,8 @@ const BaseButton = styled.button`
   padding: 0.5rem;
   border-radius: 8px;
   line-height: 1.6;
+
+  cursor: pointer;
 `
 
 export const LocationButton = styled(BaseButton)`
