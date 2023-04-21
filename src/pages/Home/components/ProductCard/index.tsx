@@ -1,6 +1,15 @@
-import { LabelWrapper, ProductCardContainer } from './styles'
+import {
+  AddCartButton,
+  CardFooter,
+  CartQuantityInput,
+  LabelWrapper,
+  PriceContainer,
+  ProductCardContainer,
+  ProductDescriptionWrapper,
+} from './styles'
 
 import coffeImage from '../../../../assets/cafe-cubano.png'
+import { ShoppingCart, ShoppingCartSimple } from 'phosphor-react'
 // interface Coffee {
 //   id: string
 //   labels: string[]
@@ -29,9 +38,23 @@ export function ProductCard() {
         <strong>Gelado</strong>
       </LabelWrapper>
 
-      <h3>Expresso Tradicional</h3>
+      <ProductDescriptionWrapper>
+        <h3>Expresso Tradicional</h3>
+        <p>Drink gelado de café expresso com rum, creme de leite e hortelã</p>
+      </ProductDescriptionWrapper>
 
-      <p>Drink gelado de café expresso com rum, creme de leite e hortelã</p>
+      <CardFooter>
+        <PriceContainer>
+          RS$ <strong>9,90</strong>
+        </PriceContainer>
+
+        <div>
+          <CartQuantityInput type="number" value={1} />
+          <AddCartButton>
+            <ShoppingCartSimple size={20} weight="fill" />
+          </AddCartButton>
+        </div>
+      </CardFooter>
     </ProductCardContainer>
   )
 }
