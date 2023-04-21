@@ -1,3 +1,19 @@
+import { ProductCard } from '../ProductCard'
+import { ProductsCardList, ProductsViewContainer } from './styles'
+
 export function ProductsView() {
-  return <h1>Products View</h1>
+  return (
+    <ProductsViewContainer>
+      <h1>Nossos Cafés</h1>
+
+      <ProductsCardList>
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+      </ProductsCardList>
+    </ProductsViewContainer>
+  )
 }
