@@ -9,23 +9,7 @@ import {
 } from './styles'
 
 import coffeImage from '../../../../assets/cafe-cubano.png'
-import { ShoppingCart, ShoppingCartSimple } from 'phosphor-react'
-// interface Coffee {
-//   id: string
-//   labels: string[]
-//   name: string
-//   description: string
-//   price: number
-// }
-
-// const coffes: Coffee = {
-//   id: new Date().toString(),
-//   labels: ['especial', 'alcoólico', 'gelado'],
-//   name: 'Cubano',
-//   description:
-//     'Drink gelado de café expresso com rum, creme de leite e hortelã',
-//   price: 9.9,
-// }
+import { ShoppingCartSimple } from 'phosphor-react'
 
 export function ProductCard() {
   return (
