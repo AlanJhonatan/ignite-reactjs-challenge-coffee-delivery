@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const OrderFormContainer = styled.form`
   padding: 2.5rem;
-  margin-top: 1rem;
 
   background-color: ${(props) => props.theme['base-card']};
 

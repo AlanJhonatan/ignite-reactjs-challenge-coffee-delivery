@@ -9,21 +9,6 @@ export const SubmitOrderFormContainer = styled.div`
   flex-direction: column;
 `
 
-export const OrderItem = styled.div`
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem;
-
-  img {
-    width: 4rem;
-    height: 4rem;
-  }
-
-  div {
-    align-self: flex-start;
-  }
-`
-
 export const Separator = styled.div`
   margin: 1.5rem 0;
   border-bottom: 1px solid ${(props) => props.theme['base-button']};
