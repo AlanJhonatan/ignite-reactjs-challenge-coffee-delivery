@@ -76,16 +76,6 @@ export const PriceContainer = styled.div`
   }
 `
 
-export const CartQuantityInput = styled.input`
-  max-width: 72px;
-  border: 0;
-  border-radius: 6px;
-
-  background-color: ${(props) => props.theme['base-button']};
-  color: ${(props) => props.theme['base-title']};
-  text-align: center;
-`
-
 export const AddCartButton = styled.button`
   display: flex;
   justify-content: center;

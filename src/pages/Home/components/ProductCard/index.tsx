@@ -1,7 +1,6 @@
 import {
   AddCartButton,
   CardFooter,
-  CartQuantityInput,
   LabelWrapper,
   PriceContainer,
   ProductCardContainer,
@@ -10,6 +9,7 @@ import {
 
 import coffeImage from '../../../../assets/cafe-cubano.png'
 import { ShoppingCartSimple } from 'phosphor-react'
+import { QuantityInput } from '../../../../components/QuantityInput'
 
 export function ProductCard() {
   return (
@@ -33,7 +33,7 @@ export function ProductCard() {
         </PriceContainer>
 
         <div>
-          <CartQuantityInput type="number" value={1} />
+          <QuantityInput />
           <AddCartButton>
             <ShoppingCartSimple size={20} weight="fill" />
           </AddCartButton>
