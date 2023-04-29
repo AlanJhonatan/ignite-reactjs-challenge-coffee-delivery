@@ -11,19 +11,26 @@ export function Success() {
       </SuccessHeader>
 
       <SuccessInfos>
-        <p>
-          Entrega em <strong>Rua João Daniel Martinelli, 102</strong>
-        </p>
-        <p>Farrapos - Porto Alegre, RS</p>
+        <div>
+          <p>
+            Entrega em <strong>Rua João Daniel Martinelli, 102</strong>
+          </p>
+          <p>Farrapos - Porto Alegre, RS</p>
+        </div>
 
-        <p>Previsão de entrega</p>
-        <p>
-          <strong>20 min - 30 min</strong>
-        </p>
-        <p>Pagamento na entrega</p>
-        <p>
-          <strong>Cartão de Crédito</strong>
-        </p>
+        <div>
+          <p>Previsão de entrega</p>
+          <p>
+            <strong>20 min - 30 min</strong>
+          </p>
+        </div>
+
+        <div>
+          <p>Pagamento na entrega</p>
+          <p>
+            <strong>Cartão de Crédito</strong>
+          </p>
+        </div>
       </SuccessInfos>
       <img src={deliveryImage} alt="" />
     </SuccessContainer>
